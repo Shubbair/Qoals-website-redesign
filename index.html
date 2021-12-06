@@ -7,58 +7,58 @@
     <link rel="stylesheet" href="css/tailwind.css">
     <title>Document</title>
 </head>
-<body>
+<body class="dark:bg-gray-800">
     <!-- Navbar Section -->
-    <nav class="flex flex-row justify-between my-20 text-xl text-gray-800 mx-14">
+    <nav class="flex flex-row justify-between my-20 text-xl text-gray-800 mx-14 dark:text-blue-300">
         <div class="px-8 py-2 text-mediumx">
             qoals
         </div>
         <div class="flex gap-14">
-            <div class="px-8 py-2 text-green-500">
+            <div class="px-8 py-2 text-green-500 dark:text-white">
                 login
             </div>
-            <div class="px-8 py-2 text-white bg-green-500 rounded">
+            <div class="px-8 py-2 text-white bg-green-500 rounded dark:bg-white dark:text-gray-800">
                 signup
             </div>
         </div>
     </nav>
     <!-- Hero Section -->
-    <div class="grid items-center justify-center grid-cols-2 gap-10 mx-24 my-28">
+    <div class="grid items-center justify-center grid-cols-1 gap-10 mx-24 my-28 md:grid-cols-2">
         <div class="">
-            <p class="text-5xl font-medium text-gray-800">Get aligned</p>
-            <p class="my-2 text-5xl font-medium text-gray-800">around your goals</p>
+            <p class="text-5xl font-medium text-gray-800 dark:text-blue-300">Get aligned</p>
+            <p class="my-2 text-5xl font-medium text-gray-800 dark:text-blue-300">around your goals</p>
             <br>
-            <p class="text-xl font-light text-gray-600">Simple & straightforward project management tool</p>
-            <p class="my-2 text-xl font-light text-gray-600">based on what really matters the most. Your goals.</p>
+            <p class="text-xl font-light text-gray-600 dark:text-blue-100">Simple & straightforward project management tool</p>
+            <p class="my-2 text-xl font-light text-gray-600 dark:text-blue-100">based on what really matters the most. Your goals.</p>
             <br>
-            <button class="px-6 py-2 text-xl font-medium text-white bg-green-500 rounded">Get started</button>
+            <button class="px-6 py-2 text-xl font-medium text-white bg-green-500 rounded dark:bg-white dark:text-gray-800">Get started</button>
         </div>
         <div class="items-center justify-center">
-            <div class="relative w-full max-w-lg">
+            <div class="relative w-full">
                 <div class="absolute bg-purple-300 rounded-full -top-10 -left-4 w-96 h-96 mix-blend-multiply filter blur-2xl opacity-70 animate-blob"></div>
                 <div class="absolute bg-blue-300 rounded-full -top-10 -right-48 w-96 h-96 mix-blend-multiply filter blur-2xl opacity-70 animate-blob animation-delay-2000"></div>
                 <div class="absolute bg-red-300 rounded-full top-48 -left-10 w-96 h-96 mix-blend-multiply filter blur-2xl opacity-70 animate-blob animation-delay-4000"></div>
                 <div class="absolute bg-yellow-300 rounded-full top-48 -right-48 w-96 h-96 mix-blend-multiply filter blur-2xl opacity-70 animate-blob animation-delay-6000"></div>
             </div>
-            <img class="relative" src="assets/hero.svg">
+            <img class="relative w-full h-full" src="assets/hero.svg">
         </div>
     </div>
     <!-- Card Section -->
     <div class="grid grid-cols-1 gap-16 mx-24 my-48 sm:grid-cols-3">
         <div class="">
             <img src="assets/goal-icon.svg" alt="goal icon">
-            <p class="my-3 text-2xl font-medium">Goal-based</p>
-            <p class="text-xl font-light leading-relaxed text-gray-600">Democratize your roadmap by setting goals with context, instead of creating a wall of tasks.</p>
+            <p class="my-3 text-2xl font-medium dark:text-blue-300">Goal-based</p>
+            <p class="text-xl font-light leading-relaxed text-gray-600 dark:text-blue-100">Democratize your roadmap by setting goals with context, instead of creating a wall of tasks.</p>
         </div>
         <div class="">
             <img src="assets/team-icon.svg" alt="goal icon">
-            <p class="my-3 text-2xl font-medium">Collaborative</p>
-            <p class="text-xl font-light leading-relaxed text-gray-600">Simple and effortless collaboration without any limitations. Everyone is invited to the party!</p>
+            <p class="my-3 text-2xl font-medium dark:text-blue-300">Collaborative</p>
+            <p class="text-xl font-light leading-relaxed text-gray-600 dark:text-blue-100">Simple and effortless collaboration without any limitations. Everyone is invited to the party!</p>
         </div>
         <div class="">
             <img src="assets/feed-icon.svg" alt="goal icon">
-            <p class="my-3 text-2xl font-medium">Transparent</p>
-            <p class="text-xl font-light leading-relaxed text-gray-600">Get a birds-eye view of the progress you make as well as personal updates.</p>
+            <p class="my-3 text-2xl font-medium dark:text-blue-300">Transparent</p>
+            <p class="text-xl font-light leading-relaxed text-gray-600 dark:text-blue-100">Get a birds-eye view of the progress you make as well as personal updates.</p>
         </div>
     </div>
     <!-- Feature Section -->
@@ -71,16 +71,16 @@
             <img class="relative" src="assets/feature-goal.svg" alt="goal feature icon">
         </div>      
         <div class="">
-            <p class="text-4xl font-medium text-gray-800">Set & prioritize your goals.</p>
+            <p class="text-4xl font-medium text-gray-800 dark:text-blue-300">Set & prioritize your goals.</p>
             <br>
-            <p class="max-w-md text-xl font-light leading-relaxed text-gray-600">Turn your project management into a source of information instead of a list of frustration. Communicate the timeframe & impact of your goals and democratize your roadmap.</p>
+            <p class="max-w-md text-xl font-light leading-relaxed text-gray-600 dark:text-blue-100">Turn your project management into a source of information instead of a list of frustration. Communicate the timeframe & impact of your goals and democratize your roadmap.</p>
         </div>  
     </div>
     <div class="grid items-center justify-center grid-cols-2 gap-10 mx-24 my-28 sm:grid-flow-row md:grid-flow-col">
         <div class="">
-            <p class="text-4xl font-medium text-gray-800">Add & delegate tasks.</p>
+            <p class="text-4xl font-medium text-gray-800 dark:text-blue-300">Add & delegate tasks.</p>
             <br>
-            <p class="max-w-md text-xl font-light leading-relaxed text-gray-600">Rome wasn't built in a day, neither will your goals. Divide your goals into small & meaningful chunks and delegate them. Let everyone see the bigger picture as well as their role in it.</p>
+            <p class="max-w-md text-xl font-light leading-relaxed text-gray-600 dark:text-blue-100">Rome wasn't built in a day, neither will your goals. Divide your goals into small & meaningful chunks and delegate them. Let everyone see the bigger picture as well as their role in it.</p>
         </div>  
         <div class="items-center justify-center">
             <div class="relative w-full max-w-lg">
@@ -99,29 +99,29 @@
             <img class="relative" src="assets/feature-resource.svg" alt="resource feature icon">
         </div>      
         <div class="">
-            <p class="text-4xl font-medium text-gray-800">Collect resources, collectively.</p>
+            <p class="text-4xl font-medium text-gray-800 dark:text-blue-300">Collect resources, collectively.</p>
             <br>
-            <p class="max-w-md text-xl font-light leading-relaxed text-gray-600">Make the latest version of your documents, designs, issues, feedbacks... accessible. Just provide the link and voila! Living bookmarks for everyone, directly in your goal.</p>
+            <p class="max-w-md text-xl font-light leading-relaxed text-gray-600 dark:text-blue-100">Make the latest version of your documents, designs, issues, feedbacks... accessible. Just provide the link and voila! Living bookmarks for everyone, directly in your goal.</p>
         </div>  
     </div>
     <!-- About Section -->
     <div class="grid items-center justify-center py-10 mx-24 my-64 grid-row-1">
-        <p class="mx-10 text-5xl font-medium text-gray-800">Become goal-oriented</p>
+        <p class="mx-10 text-5xl font-medium text-gray-800 dark:text-blue-300">Become goal-oriented</p>
         <br>
-        <p class="text-xl font-light text-gray-600">Reduce the noise and focus on what really matters the most. Your goals.</p>
+        <p class="text-xl font-light text-gray-600 dark:text-blue-100">Reduce the noise and focus on what really matters the most. Your goals.</p>
         <br>
-        <button class="w-1/3 px-8 py-3 mx-48 text-xl font-medium text-white bg-green-500 rounded">Get started</button>
+        <button class="w-1/3 px-8 py-3 mx-48 text-xl font-medium text-white bg-green-500 rounded dark:bg-white dark:text-gray-800">Get started</button>
     </div>
     <!-- footer Section -->
     <footer class="flex justify-between mx-24 py-14">
         <div>
-            <span class="mx-8 text-xl text-gray-800 text-medium">qoals</span>
-            <span class="text-lg text-gray-600 text-light">Goal-based project management.</span>
+            <span class="mx-8 text-xl text-gray-800 text-medium dark:text-blue-300">qoals</span>
+            <span class="text-lg text-gray-600 text-light dark:text-gray-500">Goal-based project management.</span>
         </div>
         <div class="flex gap-6">
-            <div class="text-lg text-green-500 text-light">twitter</div>
-            <div class="text-lg text-green-500 text-light">contact us</div>
-            <div class="text-lg text-green-500 text-light">login</div>
+            <div class="text-lg text-green-500 text-light dark:text-blue-100">twitter</div>
+            <div class="text-lg text-green-500 text-light dark:text-blue-100">contact us</div>
+            <div class="text-lg text-green-500 text-light dark:text-blue-100">login</div>
         </div>
     </footer>
 </body>
